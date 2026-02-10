@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff7eb3, #ff7eb3);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+}
+
+.container {
+    margin-top: 15%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.buttons {
+    margin-top: 30px;
+    position: relative;
+    height: 200px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#yesBtn {
+    background-color: green;
+    color: white;
+}
+
+#yesBtn:hover {
+    transform: scale(1.1);
+}
+
+#noBtn {
+    background-color: #444;
+    color: white;
+    position: absolute;
+}
+
+.hidden {
+    display: none;
+}
+
+#finalScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("Lachrymose.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: none; /* VERY IMPORTANT */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.finalContent {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    margin-right: 450px;
+    border-radius: 20px;
+}
+
