@@ -14,7 +14,7 @@ const noTexts = [
     "Don’t do this 😭",
     "You’re breaking my heart 💘",
     "Really? 😶",
-    "It's already 8th, leave 9 as a lucky number for me 😳"
+    "It's already 8th, let's leave 9 as a lucky number for me 😳"
 ];
 
 function moveButton() {
