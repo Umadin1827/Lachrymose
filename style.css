@@ -63,7 +63,7 @@ button {
     background-repeat: no-repeat;
 
     display: none; /* VERY IMPORTANT */
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
 }
@@ -72,7 +72,6 @@ button {
 .finalContent {
     background: rgba(0, 0, 0, 0.6);
     padding: 40px;
-    margin-right: 600px;
     border-radius: 20px;
 }
 
